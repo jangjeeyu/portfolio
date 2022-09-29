@@ -20,6 +20,8 @@
 <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/slick.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/graphic.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/web.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/popup.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
     <div id="wrap">
@@ -43,7 +45,14 @@
             <div><button><p>Click!</p></button></div>
         </article>
         </header>
- 
+        <div id="pop_up">
+            <div class="img">
+                 <img src="" alt="어바웃미 소개글 이미지">
+                    <div class="btn">
+                        <button class="close">닫기</button>
+                    </div>
+            </div>    
+        </div>
 
         <section id="graphic">
             <div class="inner">
@@ -68,25 +77,79 @@
         <section id="portfolio">
             <h2>Web/App</h2>    
             <div class="renew_box inner ">
-                <div class="kelg_box flex ">
-                    <div class="left_txt">
-                        <h4><span>01</span>켈로그 리뉴얼(카페 24)</h4>
-                        <p>켈로그는 시리얼을 주력으로 판매하는 브랜드로,<br> 메인 색을 노란색으로 사용하여 따뜻하고 친근한 분위기를 내었습니다.<br>들어가는 컨텐츠의 색감도 메인 색에 맞추되,<br>포인트 요소로 그린계열의 색깔를 사용해 조화로울 수 있도록 디자인하였습니다.</p>
-                        <div class="left_txt_bot">
-                            <p>사용한 툴</p>
-                            <p>기여도 :100%</p>
+                <div class="tabSet">
+                    <ul class="tabs">
+                        <li><a href="#panel1-1" class="on">켈로그</a></li>
+                        <li><a href="#panel1-2">참사랑</a></li>
+                        <li><a href="#panel1-3">피자어플</a></li>
+                    </ul>
+                    <div class="panels">
+                        <div class="panel" id="panel1-1">
+                            <div class="kelg_box flex ">
+                                <div class="left_txt">
+                                    <h4><span>01</span>켈로그 리뉴얼(카페 24)</h4>
+                                    <p>켈로그는 시리얼을 주력으로 판매하는 브랜드로,<br> 메인 색을 노란색으로 사용하여 따뜻하고 친근한 분위기를 내었습니다.<br>들어가는 컨텐츠의 색감도 메인 색에 맞추되,<br>포인트 요소로 그린계열의 색깔를 사용해 조화로울 수 있도록 디자인하였습니다.</p>
+                                    <div class="left_txt_bot">
+                                        <p>사용한 툴</p>
+                                        <p>기여도 :100%</p>
+                                    </div>
+                                </div> <!--left_txt-->
+                                <div class="right_img">
+                                    <img src="image/kellog_1.png">
+                                    <div class="kelg_btn">
+                                        <button class="kelg_guide">가이드 </button>
+                                        <a href="https://wkdwldb10.cafe24.com/">
+                                            <button class="kelg_web">사이트 </button>
+                                        </a>
+                                    </div> <!--kelg_btn-->
+                                </div><!--right_img-->
+                            </div> <!--kelg_box-->
                         </div>
-                    </div> <!--left_txt-->
-                    <div class="right_img">
-                        <img src="image/kellog_1.png">
-                        <div class="kelg_btn">
-                            <button class="kelg_guide">가이드 </button>
-                            <a href="https://wkdwldb10.cafe24.com/">
-                                <button class="kelg_web">사이트 </button>
-                            </a>
-                        </div> <!--kelg_btn-->
-                    </div><!--right_img-->
-                </div> <!--kelg_box-->
+                        <div class="panel" id="panel1-2">
+                            <div class="kelg_box flex ">
+                                <div class="left_txt">
+                                    <h4><span>02</span>참사랑 요양병원 리뉴얼</h4>
+                                    <p>참사랑 요양병원의 사이트를 리뉴얼하였습니다. <br>사랑과 정성이라는 아이덴디티를 살리기 위해 로고를 리디자인했고,<br> 기존 사이트 레이아웃을 더 확장하여 서비스 접근성을 높였습니다. <br>사이트 전체 분위기에서 활력적인 느낌을 내기 위해 <br>오렌지색감을 포인트로 사용하였습니다. 
+                                    </p>
+                                    <div class="left_txt_bot">
+                                        <p>사용한 툴</p>
+                                        <p>기여도: 100%</p>
+                                    </div>
+                                </div> <!--left_txt-->
+                                <div class="right_img">
+                                    <img src="image/chamlove_1.png">
+                                    <div class="kelg_btn">
+                                        <button class="kelg_guide">가이드 </button>
+                                        <a href="https://jangjeeyu.github.io/chamlove/">
+                                            <button class="kelg_web">사이트 </button>
+                                        </a>
+                                    </div> <!--kelg_btn-->
+                                </div><!--right_img-->
+                            </div> <!--kelg_box-->
+                        </div>
+                        <div class="panel" id="panel1-3">
+                            <div class="kelg_box flex ">
+                                <div class="left_txt">
+                                    <h4><span>03</span>빅스타피자 어플 디자인</h4>
+                                    <p>빅스타 피자의 모바일 어플 UI디자인을 진행하였습니다. 메인 색을 노란색과 짙은 회색으로 잡아 기존과 다른 느낌을 주었고, 피자모양의 버튼으로 아이덴디티를 나타냈습니다. </p>
+                                    <div class="left_txt_bot">
+                                        <p>사용한 툴</p>
+                                        <p>기여도</p>
+                                    </div>
+                                </div> <!--left_txt-->
+                                <div class="right_img">
+                                    <img src="image/pizza_1.png">
+                                    <div class="kelg_btn">
+                                        <button class="kelg_guide">가이드 </button>
+                                        <button class="kelg_web">사이트 </button>
+                                    </div> <!--kelg_btn-->
+                                </div><!--right_img-->
+                            </div> <!--kelg_box-->
+                        </div>
+
+                    <!-- /panels --></div>
+                <!-- /tabset --></div>
+            
 
 
             </div> <!--renew_box-->                  
@@ -97,12 +160,6 @@
         <section id="contact" class="inner">
             <h2>Contact</h2>
             <div class="about_box flex">
-                <!-- <div class="about_img">
-                    <img src="" alt="증명사진">
-                </div> -->
-                <div>
-
-                </div>
             </div>
         </section>
 
