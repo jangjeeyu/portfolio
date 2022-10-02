@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 /*googleips 웹폰트 css 파일 불러오기*/
-@import url(https://fonts.googleapis.com/css?family=Galada|Nanum+Gothic|Nanum+Myeongjo);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import url(https://fonts.googleapis.com/css?family=Galada|Nanum+Gothic|Nanum+Myeongjo); */
 /*font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Nanum Myeongjo', serif;
 font-family: 'Galada', cursive; */
@@ -20,7 +21,7 @@ font-family: 'Galada', cursive; */
 html{font-size:16px; line-height:1.15em}
 body{ 
       color:#1e1e1e;;
-      font-family: 'Nanum Gothic', sans-serif }
+      font-family: 'Noto+Sans', sans-serif }
 ul, ol, li{list-style-type:none}
 svg,img,embed,object,iframe,fieldset {
   vertical-align: bottom;border:none;}
