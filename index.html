@@ -17,68 +17,176 @@
     <script src="./js/jquery-ui-1.10.3.custom.min.js"></script>
     <script src="js/jquery-ui.min.js"> </script>
     <script src="js/tap.js"> </script>
+    <script src="js/popup.js"> </script>
 </head>
 <body>
     <div id="wrap">
-        <div class="color">
+        <!-- <div class="color">
             <p class="orange">주황색</p>
             <p class="blue">파랑색</p>
-            <!-- <p class="sky">진파랑</p> -->
-        </div>
+        </div> -->
         <div class="tabSet inner flex">
-            <ul class="tabs flex">
-                <li><a href="#panel2-1" class="on">ALL</a></li>
-                <li><a href="#panel2-2">GRAPHIC</a></li>
-                <li><a href="#panel2-3">RENEWAL</a></li>
-                <li><a href="#panel2-4">ABOUT</a></li>
+            <div class="tabs ">
+                <div class="tab_prof">
+                <div class="profile">
+                    <p class="prof_tit">성장하는 디자이너</p>
+                    <p class="prof_tit_name"> JANG JIYU</p>
+                    <p class="prof_p">wkdwldb10@gmail.com</p>
+                    <p class="prof_p"><a href="tel:010-7723-9031"> 010-7723-9031</a></p>
+                    <p class="contact_btn prof_p">
+                        <a href="https://open.kakao.com/o/s0p4y8Ee">
+                            KAKAO TALK
+                        </a>
+                    </p>        
+                </div>
+            <ul class="portfolio">
+                <li><a href="#panel2-2" class="on">GRAPHIC</a></li>
+                <li><a href="#panel2-3">WEBSITE</a></li>
             </ul>
-            <div class="contact_btn">
-                <a href="https://open.kakao.com/o/s0p4y8Ee">
-                    CONTACT
-                </a>
             </div>
+        </div>
+            
             <div class="panels">
-                <div class="panel" id="panel2-1">tsdf</div>
                 <div class="panel" id="panel2-2">
                     <div class="panel_imagebox flex">
+
                         <div class="panel_images">
-                            <img src="image/sky.jpg">
+                            <a href="#pop_up1" class="modal1">
+                                <img src="image/sky.jpg">
+                            </a>
+                            <div class="panel_images_txt">
+                                <p>포토샵을 활용한 아트웍입니다.<br>
+                                클릭 시 팝업으로 보실 수 있습니다. </p>
+                            </div>
                         </div>
-                        <div class="panel_images">
-                            <img src="image/banner2.jpg">
+                        <div id="pop_up1" class="pop">
+                            <div class="img">
+                              <img src="image/sky.jpg">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
                         </div>
+                        
                         <div class="panel_images">
-                            <img src="image/banner3.jpg">
+                            <a href="#pop_up2" class="modal2">
+                                <img src="image/banner2.jpg"></a>
                         </div>
-                        <div class="panel_images">
-                            <img src="image/banner5.jpg">
+                        <div id="pop_up2" class="pop">
+                            <div class="img">
+                                <img src="image/banner2.jpg">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
                         </div>
+
                         <div class="panel_images">
-                            <img src="image/banner4.jpg">
+                            <a href="#pop_up3" class="modal3">
+                                <img src="image/banner3.jpg"></a>
                         </div>
-                        <div class="panel_images">
-                            <img src="image/banner1.jpg">
+                        <div id="pop_up3" class="pop">
+                            <div class="img">
+                                <img src="image/banner3.jpg">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
                         </div>
+
                         <div class="panel_images">
-                            <img src="image/banner7.jpg">
+                            <a href="#pop_up4" class="modal4">
+                                <img src="image/banner5.jpg"></a>
                         </div>
-                        <div class="panel_images">
-                            <img src="image/banner8.jpg">
+                        <div id="pop_up4" class="pop">
+                            <div class="img">
+                                <img src="image/banner5.jpg">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
                         </div>
+
                         <div class="panel_images">
-                            <img src="image/kellog1.jpg">
+                            <a href="#pop_up5" class="modal5">
+                                <img src="image/banner4.jpg"></a>
                         </div>
-                        <div class="panel_images">
-                            <img src="image/kellog2.jpg">
+                        <div id="pop_up5" class="pop">
+                            <div class="img">
+                                <img src="image/banner4.jpg">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
                         </div>
+
                         <div class="panel_images">
-                            <img src="image/kellog3.jpg">
+                            <a href="#pop_up6" class="modal6">
+                                <img src="image/banner1.jpg"></a>
                         </div>
+                        <div id="pop_up6" class="pop">
+                            <div class="img">
+                                <img src="image/banner1.jpg">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
+                        </div>
+                        
                         <div class="panel_images">
-                            <img src="image/popup1.png">
+                            <a href="#pop_up7" class="modal7">
+                                <img src="image/kellog1.jpg"></a>
+                        </div>
+                        <div id="pop_up7" class="pop">
+                            <div class="img">
+                                <img src="image/kellog1.jpg">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
+                        </div>
+
+                        <div class="panel_images">
+                            <a href="#pop_up8" class="modal8">
+                                <img src="image/kellog2.jpg"></a>
+                        </div>
+                        <div id="pop_up8" class="pop">
+                            <div class="img">
+                                <img src="image/kellog2.jpg">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
+                        </div>
+
+                        <div class="panel_images">
+                            <a href="#pop_up9" class="modal9">
+                                <img src="image/kellog3.jpg"></a>
+                        </div>
+                        <div id="pop_up9" class="pop">
+                            <div class="img">
+                                <img src="image/kellog3.jpg">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
+                        </div>
+
+                        <div class="panel_images">
+                            <a href="#pop_up10" class="modal10">
+                                <img src="image/popup1.png"></a>
+                        </div>
+                        <div id="pop_up10" class="pop">
+                            <div class="img">
+                                <img src="image/popup1.png">
+                              <div class="btn">
+                                <button class="close">X</button>
+                              </div>
+                            </div>    
                         </div>
                     </div>
                 </div>
+
                 <div class="panel" id="panel2-3">
                     <div class="web_box flex">
                         <div class="web_list">
