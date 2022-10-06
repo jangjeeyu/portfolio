@@ -1,4 +1,11 @@
 $(function(){
+  $('#pop_up .close').click(function(){
+    $('#pop_up').fadeOut(600)
+  });
+  $('.modal').click(function(){
+    $('#pop_up').fadeIn(600);
+  })
+
   $('.panel_images a').each(function(){
     $(this).click(function(){
       var href = $(this).attr('href');
