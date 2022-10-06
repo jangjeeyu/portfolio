@@ -67,22 +67,22 @@ body{background-color: #fff;z-index: -8;}
 				width: 100%; overflow: auto; box-sizing: border-box;}
 .panels #panel2-1.panel{display: block;}
 .panels .panel .panel_imagebox{flex-wrap:wrap; height: 100%; margin: 0 auto; position: relative; }
-.panels .panel .panel_imagebox .panel_images{border-width: 1px; width: calc((100% - 20px)/3); height: 380px; margin-bottom:10px; overflow: hidden; }
+.panels .panel .panel_imagebox .panel_images{border-width: 1px; width: calc((100% - 20px)/3); height: 450px; margin-bottom:10px; overflow: hidden; }
 
 
 .panels .panel .panel_imagebox .panel_images img{width: 100%; height: 100%; object-fit: cover;transition: .3s linear; filter: grayscale(0);}
 .panels .panel .panel_imagebox .panel_images img:hover{transition: .3s linear; transform: scale(0.9); filter: grayscale(100%);} 
 
-/* -------------renewal-------------------- */
-.panels .panel .web_box{margin: 10px;}
-.panels .panel .web_box .web_list{height: 400px; overflow: hidden;}
-/* .panels .panel .web_box .web_list img:hover{} */
-.panels .panel .web_box .web_list img{ width: 100%; filter: grayscale(0); transition: .3s linear;}
-.panels .panel .web_box .web_list img:hover{filter:grayscale(0); }
+/* ------------website-------------------- */
+.panels{background-color: #f2f2f2;}
+.panels .panel .web_box{margin:0 auto; justify-content: space-around;  padding-top: 50px; padding-bottom: 0px;}
+.panels .panel .web_box .web_text{margin: auto 0; padding-top: 80px;}
+.panels .panel .web_box .web_text h2{font-weight: 700; font-size: 35px; line-height: 100px;}
+.panels .panel .web_box .web_text > p{margin-bottom: 40px; font-size: 20px; line-height: 30px;}
 
-/* --------------------------------- */
-/* .panels #panel2-4{width: 100%;} */
-.panels #panel2-4 .profile{text-align: center; position: absolute; right: 500px; top: 50%; transform: translateY(-50%);}
-.panels #panel2-4 .profile .prof_img{width:300px; height: 300px; background-color: rgba(255, 255, 255, 0.4);
-					box-shadow: 1px 6px 20px -15px #000; overflow: hidden; border-radius: 50%;
-					margin-bottom: 50px;}
+.panels .panel .web_box .web_text .web_btn{justify-content:start; } 
+.panels .panel .web_box .web_text .web_btn a{background-color: #36a6a8; color: #fff; padding: 05px 10px; font-size: 20px; ;line-height: 30px; margin-right: 30px;}
+
+/* .panels .panel .web_box .web_list{width: 70%;} */
+.panels .panel .web_box .web_list img{height: 500px;}
+/* --------------------------------- *
