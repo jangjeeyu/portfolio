@@ -113,7 +113,7 @@ button.close {border: none;}
 .panels .panel .web_box .web_text .web_btn a:hover{background-color: #969f9f;}
 
 .panels .panel .web_box .web_list{width: 50%;}
-.panels .panel .web_box .web_list img{ width: 100%; }
+.panels .panel .web_box .web_list img{ width: auto; height: 100%;}
 /* --------------------------------- */
 
 @media all and (max-width:1350px){
@@ -201,7 +201,7 @@ button.close {border: none;}
 			display: none;
 		}
 		.tabSet .tabs .contact_btn a {
-			padding: 15px 2px;
+			padding: 17.5px 2px;
 			border-radius: 50%;
 			font-size: 16px;
 		}
