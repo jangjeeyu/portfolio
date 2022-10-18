@@ -100,7 +100,7 @@ button.close {border: none;}
 #pop_up12 .img img{transform: scale(0.2);}
 
 /* ------------website-------------------- */
-.panels .panel .web_box{margin:0 auto; justify-content: space-around;  padding-top: 50px; overflow: hidden; height: 500px;}
+.panels .panel .web_box{margin:0 auto; justify-content: space-around;  padding-top: 50px; overflow: hidden; height: 400px;}
 .panels .panel .web_box .web_text{margin: auto 0;width: 40%; word-break: keep-all; }
 
 .panels .panel .web_box .web_text h2{font-weight: 700; font-size: 35px;padding-bottom: 50px; position: relative;}
@@ -188,11 +188,11 @@ button.close {border: none;}
 	.panels .panel .web_box {
 		justify-content: center;
 		flex-direction: column-reverse;
-		height: 600px;
+		height: auto; margin-bottom: 10px;
 	}
 	
 	.panels .panel .web_box .web_text {
-		margin: auto;
+		margin: 0 auto;
 		width: 70%;
 		text-align: center;
 	}
@@ -201,14 +201,9 @@ button.close {border: none;}
 		width: 80%;
 		margin: 0 auto;
 		margin-bottom: 30px;
+		height: 350px;
 	}
-	
-	.panels .panel .web_box {
-		justify-content: center;
-		flex-direction: column-reverse;
-		height: 780px;
-		margin-bottom: 50px;
-	}
+
 	.panels .panel .web_box .web_text .web_btn {
 		justify-content: center;
 	}
@@ -300,7 +295,7 @@ button.close {border: none;}
 			width: 100%;
 		}
 		.panels .panel .web_box .web_list {
-			width: 80%;}
+			width: 100%; height: 300px;}
 		
 }
 
