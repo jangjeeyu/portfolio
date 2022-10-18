@@ -2,6 +2,9 @@ $(function(){
   $('#pop_up .close').click(function(){
     $('#pop_up').fadeOut(600)
   });
+  $('#pop_up').click(function(){
+    $('#pop_up').fadeOut(600)
+  });
   $('.modal#modal1').click(function(){
     $('.pop_up1').fadeIn(600);
   })
@@ -25,6 +28,10 @@ $(function(){
     }) //this
   }) //modal
   $('.pop .close').click(function(){
+    $('.pop').fadeOut(300);
+    $('.panel_images a').removeClass('on');
+  })
+  $('.pop').click(function(){
     $('.pop').fadeOut(300);
     $('.panel_images a').removeClass('on');
   })

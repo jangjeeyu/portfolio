@@ -28,6 +28,7 @@ body{background-color: #fff;z-index: -8;}
  #pop_up .img{position:absolute; left:50%; top:50%; transform:translate(-50%,-50%) ;text-align:center; overflow-y: scroll; height:100%;}
  #pop_up .img img{display: block; width: 100%;}
 
+
 button.close {border: none;}
 /* .pop .btn button.close{position: absolute;top: 20px; right: 10px;
  padding: 10px 20px; font-size: 50px;
@@ -95,6 +96,14 @@ button.close {border: none;}
 
 .panels .panel .panel_imagebox .panel_images img{width: 100%; height: 100%; object-fit: cover;transition: .3s linear; filter: grayscale(0);}
 .panels .panel .panel_imagebox .panel_images img:hover{transition: .3s linear; transform: scale(0.9); filter: grayscale(100%);} 
+
+.panel_images_txt {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;}
 
 #pop_up11 .img img{transform: scale(0.2);}
 #pop_up12 .img img{transform: scale(0.2);}
