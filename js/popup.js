@@ -2,9 +2,15 @@ $(function(){
   $('#pop_up .close').click(function(){
     $('#pop_up').fadeOut(600)
   });
-  $('.modal').click(function(){
-    $('#pop_up').fadeIn(600);
+  $('.modal#modal1').click(function(){
+    $('.pop_up1').fadeIn(600);
   })
+  // $('.modal#modal2').click(function(){
+  //   $('.pop_up2').fadeIn(600);
+  // })
+  // $('.modal#modal3').click(function(){
+  //   $('.pop_up3').fadeIn(600);
+  //})
 
   $('.panel_images a').each(function(){
     $(this).click(function(){
