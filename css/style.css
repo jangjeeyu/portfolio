@@ -20,7 +20,7 @@ body{background-color: #fff;z-index: -8;}
 
  .pop#pop_up1 .img img{transform: scale(0.7);}
  .pop#pop_up4 .img img{transform: scale(0.7);}
- .pop#pop_up12 .img{}
+
  /* .modal_select a.on{background-color: gold;} */
 
 
@@ -215,7 +215,24 @@ button.close {border: none;}
 		.tabSet .tabs .profile .prof_tit_name {
 			margin-bottom: 70px;
 		}
+		.pop#pop_up1 .img img{transform: scale(50%);}
+		.pop#pop_up5 .img img{transform: scale(0.9);}
+		.pop#pop_up6 .img img{transform: scale(0.9);}
+		.pop#pop_up4 .img img{transform: scale(0.38);}
+		.pop#pop_up2 .img img{transform: scale(0.6);}
+		.pop#pop_up3 .img img{transform: scale(0.63);}
+		.pop#pop_up9 .img img{transform: scale(0.75);}
+		.pop#pop_up10 .img img{transform: scale(0.75);}
+		.pop#pop_up12 .img img{transform: scale(0.1);}
+		.pop#pop_up11 .img img{transform: scale(0.11);}
+		.pop#pop_up7 .img img{transform: scale(0.7);}
+		.pop#pop_up8 .img img{transform: scale(0.7);}
 
+		.btn button.close {
+			top: 50px;
+			right: 10%;
+			font-size: 60px;
+		}
 }
 
 @media all and (max-width:420px){
@@ -224,5 +241,22 @@ button.close {border: none;}
 		padding-right: 15px;}
 	.tabSet .tabs ul li:nth-of-type(2){
 		padding-right:0;
+	}
+	.pop#pop_up1 .img img{transform: scale(35%);}
+	.pop#pop_up5 .img img{transform: scale(0.6);}
+	.pop#pop_up6 .img img{transform: scale(0.6);}
+	.pop#pop_up4 .img img{transform: scale(0.28);}
+	.pop#pop_up2 .img img{transform: scale(0.4);}
+	.pop#pop_up3 .img img{transform: scale(0.43);}
+	.pop#pop_up9 .img img{transform: scale(0.55);}
+	.pop#pop_up10 .img img{transform: scale(0.58);}
+	.pop#pop_up12 .img img{transform: scale(0.1);}
+	.pop#pop_up11 .img img{transform: scale(0.11);}
+	.pop#pop_up7 .img img{transform: scale(0.5);}
+	.pop#pop_up8 .img img{transform: scale(0.5);}
+	.btn button.close {
+		top: 80px;
+		right: 50%;
+		transform: translateX(50%);
 	}
 }
