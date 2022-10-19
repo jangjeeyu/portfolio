@@ -17,6 +17,7 @@ body{background-color: #fff;z-index: -8;}
 
  .pop{width:100%; height:100%;left:0%; top:0; background:rgba(0,0,0, 0.6); z-index:99; display:none; position: fixed;}
  .pop .img{position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);  text-align:center;}
+ .pop .img img{display: block;}
 
  .pop#pop_up1 .img img{transform: scale(0.7);}
  .pop#pop_up4 .img img{transform: scale(0.7);}
@@ -143,6 +144,8 @@ button.close {border: none;}
 	.tabSet .tabs ul li::after {right: 10px; width: 130px; bottom: 0px;}
 	.tabSet .tabs ul li::before {width: 20px; left: 114px; bottom: 6.5px; }
 	.panels{width: 80%;}
+	.pop#pop_up1 .img img{transform: scale(55%);}
+	.pop#pop_up4 .img img{transform: scale(0.58);}
 }
 
 @media all and (max-width:1288px){
@@ -170,8 +173,8 @@ button.close {border: none;}
 	.panels .panel .panel_imagebox {
 			justify-content: center;
 		}
-	.pop#pop_up1 .img img{transform: scale(0.6);}
-	.pop#pop_up4 .img img{transform: scale(0.6);}
+	/* .pop#pop_up1 .img img{transform: scale(0.6);}
+	.pop#pop_up4 .img img{transform: scale(0.6);} */
 
 	.panels .panel .web_box {
 		justify-content: flex-end;}
@@ -190,6 +193,7 @@ button.close {border: none;}
 }
 
 @media all and (max-width:1240px){
+
 	.panels .panel .web_box .web_text h2 {
 		padding-bottom: 40px;
 		line-height: 40px;
@@ -296,10 +300,22 @@ button.close {border: none;}
 		.pop#pop_up8 .img img{transform: scale(0.7);}
 
 		.btn button.close {
-			top: 50px;
-			right: 10%;
+			top: 10px;
+			right: 0px;
 			font-size: 60px;
 		}
+
+		.panels .panel .panel_imagebox .panel_images {
+			width: calc((100% - 20px)/2);
+			height: auto;
+			/* margin: 0px; */
+		}
+		
+		.panels .panel {
+			padding: 0 0 0 10px;
+			/* padding-left: 10px; */
+		}
+
 		.panels .panel .web_box .web_text {
 			width: 100%;
 		}
@@ -327,11 +343,11 @@ button.close {border: none;}
 	.pop#pop_up11 .img img{transform: scale(0.11);}
 	.pop#pop_up7 .img img{transform: scale(0.5);}
 	.pop#pop_up8 .img img{transform: scale(0.5);}
-	.btn button.close {
+	/* .btn button.close {
 		top: 80px;
 		right: 50%;
 		transform: translateX(50%);
-	}
+	} */
 	.panels .panel .web_box .web_text > p {
 		font-size: 16px;
 		font-weight: 100;

@@ -7,7 +7,7 @@ $(function(){
   });
   $('.modal#modal1').click(function(){
     $('.pop_up1').fadeIn(600);
-  })
+  });
   // $('.modal#modal2').click(function(){
   //   $('.pop_up2').fadeIn(600);
   // })
@@ -31,8 +31,18 @@ $(function(){
     $('.pop').fadeOut(300);
     $('.panel_images a').removeClass('on');
   })
-  $('.pop').click(function(){
+})//end
+
+
+$(document).mouseup(function (e){
+  if($(".pop").has(e.target).length === 0){
+    $(".pop").stop().fadeOut(300);
+    // $('.panel_images a').removeClass('on');
+  }
+  })
+
+
+  /*  $('.pop').click(function(){
     $('.pop').fadeOut(300);
     $('.panel_images a').removeClass('on');
-  })
-})//end
+  }) */
