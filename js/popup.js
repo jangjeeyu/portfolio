@@ -2,9 +2,6 @@ $(function(){
   $('#pop_up .close').click(function(){
     $('#pop_up').fadeOut(600)
   });
-  $('#pop_up').click(function(){
-    $('#pop_up').fadeOut(600)
-  });
   $('.modal#modal1').click(function(){
     $('.pop_up1').fadeIn(600);
   });
